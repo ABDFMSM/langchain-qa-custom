@@ -1,10 +1,6 @@
 import streamlit as st
-import os
-from dotenv import load_dotenv
 from query import get_rag_service
 from langchain_core.messages import HumanMessage, AIMessage
-
-load_dotenv()
 
 st.set_page_config(page_title="🤖 Q&A App", layout="centered")
 st.title("🤖 Q&A App")
