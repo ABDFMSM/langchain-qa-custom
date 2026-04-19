@@ -1,0 +1,7 @@
+LLM/
+__pycache__/
+.env
+.DS_Store
+*.pyc
+req_no_streamlit.txt
+chroma_db/
